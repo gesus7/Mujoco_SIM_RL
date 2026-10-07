@@ -1,0 +1,5 @@
+{
+  "name": "progress-combined", "profile": "combined", "reward_mode": "progress",
+  "num_envs": 2048, "batch_size": 512, "num_minibatches": 32,
+  "num_timesteps": 40000000, "num_evals": 9, "max_grad_norm": 1.0
+}

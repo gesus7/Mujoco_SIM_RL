@@ -1,0 +1,25 @@
+# Publish source code only. Local documentation, assets, logs and results stay private.
+/*
+!/.gitignore
+!/LICENSE
+!/NOTICE.md
+!/pytest.ini
+!/requirements-*.txt
+!/panda_rl/
+/panda_rl/*
+!/panda_rl/*.py
+!/configs/
+/configs/*
+!/configs/*.json
+!/tests/
+/tests/*
+!/tests/*.py
+!/scripts/
+/scripts/*
+!/scripts/fetch_assets.py
+!/scripts/prepare_offline.py
+!/scripts/setup_server.sh
+!/scripts/plot_learning.py
+!/scripts/source-provenance.json
+**/__pycache__/
+**/*.py[cod]

@@ -1,0 +1,15 @@
+-r requirements-local.txt
+jax[cuda12]==0.6.2
+jaxlib==0.6.2
+brax==0.14.2
+flax==0.11.2
+orbax-checkpoint==0.11.31
+optax==0.2.8
+mujoco-mjx==3.6.0
+warp-lang==1.17.0
+onnx==1.20.1
+mediapy==1.2.6
+lxml==6.0.2
+tqdm==4.67.1
+ml-collections==1.1.0
+playground @ git+https://github.com/google-deepmind/mujoco_playground.git@86bfcd999619ad8d058383feefc1dd16d4cc57a7
