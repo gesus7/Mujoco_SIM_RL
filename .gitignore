@@ -1,8 +1,10 @@
-# Publish source code only. Local documentation, assets, logs and results stay private.
+# Publish source and project READMEs. Local notes, assets, logs and results stay private.
 /*
 !/.gitignore
 !/LICENSE
 !/NOTICE.md
+!/README.md
+!/README.zh-CN.md
 !/pytest.ini
 !/requirements-*.txt
 !/panda_rl/
